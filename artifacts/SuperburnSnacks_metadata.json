@@ -259,6 +259,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "owner",
 						"type": "address"
@@ -275,6 +294,38 @@
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "end",
+						"type": "uint256"
+					}
+				],
+				"name": "minutesRemaining",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -381,6 +432,25 @@
 				"name": "safeTransferFrom",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "end",
+						"type": "uint256"
+					}
+				],
+				"name": "secondsRemaining",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -670,6 +740,14 @@
 				"dweb:/ipfs/QmYqEbJML4jB1GHbzD4cUZDtJg5wVwNm3vDJq1GbyDus8y"
 			]
 		},
+		"@openzeppelin/contracts/utils/Base64.sol": {
+			"keccak256": "0x5f3461639fe20794cfb4db4a6d8477388a15b2e70a018043084b7c4bedfa8136",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77e5309e2cc4cdc3395214edb0ff43ff5a5f7373f5a425383e540f6fab530f96",
+				"dweb:/ipfs/QmTV8DZ9knJDa3b5NPBFQqjvTzodyZVjRUg5mx5A99JPLJ"
+			]
+		},
 		"@openzeppelin/contracts/utils/Context.sol": {
 			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
 			"license": "MIT",
@@ -678,12 +756,20 @@
 				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
 			]
 		},
-		"SuperburnSnacks.sol": {
-			"keccak256": "0xabb49d0353362ebc5250f03a2120949ac7218d3cdd9ba52289ab6c0628d2bd0d",
+		"Art.sol": {
+			"keccak256": "0xa252811b10c4401186f9f32f2a7418ad8c93fe2771ead85da77bf4f65223a842",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0dcc4e5c28410a51d190c2a1ddbbda23658339a63a60700b9a0cafebf65f5bce",
-				"dweb:/ipfs/QmaBFTGK37CRe5xrNxTj2zbvKChdMyo6VYbVGS6b5XkTsB"
+				"bzz-raw://d1e6185f9a8bbdc24bff34f9ebd49e7e73b17b95463557b349801414c3d59979",
+				"dweb:/ipfs/QmcsVzuRoUBs1Jr4M9AugPpXzkEtjkV77PoovLoZcxxPYA"
+			]
+		},
+		"SuperburnSnacks.sol": {
+			"keccak256": "0xf4fc2774dd64ecdec4c591646cc6e82f690c31fa4556daa158e584301b598469",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ff4ddd55f1f56e8a49f599bd2111d452173148c6b3afc469f48ccfb5234b93e",
+				"dweb:/ipfs/QmbuPkncnb7ZjeoUgF9Mk6aW9a9wZ2SDqNu2FLifdJPg8c"
 			]
 		},
 		"erc721a/contracts/ERC721A.sol": {
