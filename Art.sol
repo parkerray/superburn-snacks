@@ -34,7 +34,7 @@ library art {
             abi.encodePacked(
                 '{"name": "Snacks ',
                 uint2str(tokenId),
-                '", "description": "Here for the snacks.", "image": "',
+                '", "description": "Here for the snacks, preferably not burned.", "image": "',
                 image,
                 '"}'
             )
