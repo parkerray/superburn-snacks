@@ -570,6 +570,13 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -765,11 +772,11 @@
 			]
 		},
 		"SuperburnSnacks.sol": {
-			"keccak256": "0xf4fc2774dd64ecdec4c591646cc6e82f690c31fa4556daa158e584301b598469",
+			"keccak256": "0x2d05fdaa7a927b2b7e710564d2493fcb3dd44661b46ef15f29e639a43e6ac47a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8ff4ddd55f1f56e8a49f599bd2111d452173148c6b3afc469f48ccfb5234b93e",
-				"dweb:/ipfs/QmbuPkncnb7ZjeoUgF9Mk6aW9a9wZ2SDqNu2FLifdJPg8c"
+				"bzz-raw://3e1e0860fe4c87580d40355078944efd066f364ab26b6a773264dc16b78bcc72",
+				"dweb:/ipfs/QmYzBbjWkWdaoDmesbTURVWt3x8tqL4nUspSi1ZB3DkBnG"
 			]
 		},
 		"erc721a/contracts/ERC721A.sol": {

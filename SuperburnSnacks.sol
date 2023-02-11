@@ -80,4 +80,8 @@ contract SuperburnSnacks is ERC721A, Ownable {
         return art.metadata(tokenId);
     }
 
+    function withdraw() external onlyOwner {
+        require(payable(msg.sender).send(address(this).balance));
+    }
+
 }
