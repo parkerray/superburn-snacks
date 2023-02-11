@@ -764,11 +764,11 @@
 			]
 		},
 		"Art.sol": {
-			"keccak256": "0xa252811b10c4401186f9f32f2a7418ad8c93fe2771ead85da77bf4f65223a842",
+			"keccak256": "0x2a3a7470a2063ef6b6e5ef23f1e0c8dd50840315de2b0d2ea6d4e54aa9480abf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d1e6185f9a8bbdc24bff34f9ebd49e7e73b17b95463557b349801414c3d59979",
-				"dweb:/ipfs/QmcsVzuRoUBs1Jr4M9AugPpXzkEtjkV77PoovLoZcxxPYA"
+				"bzz-raw://929a1a687d43c3cb249a16097877d14181d384ab64746118495ca88ef58dec62",
+				"dweb:/ipfs/QmVFUiBQ3qptx7f9y9e7aw9NVWPqdnmNLLHqPM8VWQktJF"
 			]
 		},
 		"SuperburnSnacks.sol": {
